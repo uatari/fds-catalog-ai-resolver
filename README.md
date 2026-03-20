@@ -1,6 +1,6 @@
 # FDS Catalog AI Resolver
 
-Async Python resolver service that uses `mcp-fds-product-catalog` for deterministic product lookup and BOM retrieval.
+Async Python resolver service that uses `fds-catalog-ai-resolver` for deterministic product lookup and BOM retrieval.
 
 It is designed for:
 
@@ -26,8 +26,8 @@ Optional:
 - `API_HOST` default `0.0.0.0`
 - `API_PORT` default `8011`
 - `CATALOG_MCP_COMMAND` default `node`
-- `CATALOG_MCP_ARGS` default sibling `mcp-fds-product-catalog/src/index.js`
-- `CATALOG_MCP_CWD` default sibling `mcp-fds-product-catalog`
+- `CATALOG_MCP_ARGS` default sibling `fds-catalog-ai-resolver/src/index.js`
+- `CATALOG_MCP_CWD` default sibling `fds-catalog-ai-resolver`
 
 Local convenience:
 
