@@ -1,0 +1,23 @@
+{
+  "name": "fds-catalog-ai-resolver",
+  "version": "0.1.0",
+  "runtime": "python",
+  "entrypoint": "python -m fds_catalog_ai_resolver serve",
+  "description": "Async AI resolver service using the local FDS product catalog MCP and a SQLite job queue.",
+  "env": [
+    "OPENAI_API_KEY",
+    "OPENAI_BASE_URL",
+    "OPENAI_MODEL",
+    "SQLITE_PATH",
+    "REQUEST_TIMEOUT_MS",
+    "CATALOG_MCP_COMMAND",
+    "CATALOG_MCP_ARGS",
+    "CATALOG_MCP_CWD",
+    "WORKER_POLL_INTERVAL_MS",
+    "RUN_WORKER",
+    "API_HOST",
+    "API_PORT",
+    "LOG_LEVEL"
+  ]
+}
+

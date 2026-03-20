@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fds-catalog-ai-resolver"
+version = "0.1.0"
+description = "Async AI resolver service for the FDS product catalog MCP"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.116.0",
+  "uvicorn>=0.35.0",
+  "openai>=1.107.0",
+  "mcp>=1.26.0",
+  "python-dotenv>=1.1.0"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
